@@ -1,0 +1,72 @@
+*{margin:0;padding:0;}
+body{background:url("../images/bg_s_ss.png") repeat; font-family:Arial;}
+
+.input-wrapper {background-color:#fff; border-radius: 9px; box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7) inset;}
+.sub_btn{background:url("../images/submit_s_ss.png") no-repeat; display:block; width:278px; height:46px; margin:0 auto; border:0; color:#fff; font-size:20px; font-weight:bold; text-shadow: 0px -1px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-1); cursor:pointer;}
+.sub_btn_r{background:url("../images/red_btn_s_ss.png") no-repeat; display:block; width:278px; height:46px; margin:0 auto; border:0; color:#fff; font-size:20px; font-weight:bold; text-shadow: 0px -1px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-1); cursor:pointer;}
+.sub_btn_g{background:url("../images/grey_btn_s_ss.png") no-repeat; display:block; width:278px; height:46px; margin:0 auto; border:0; color:#fff; font-size:20px; font-weight:bold; text-shadow: 0px -1px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-1); cursor:pointer;}
+.hidden{display:none;}
+.blueGreyText{color:#4c566c; font-size:20px; margin-top:25px; text-shadow: 0px -1px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-1);}
+.spacing{margin-bottom:20px;}
+
+/*General*/
+#topbar{background:url("../images/topbar_s_ss.png") no-repeat; display:block; width:320px; height:45px; margin:0;}
+	#title{color:#fff; text-align:center; display:block; width:320px; height:20px; font-size:20px; font-weight:bold; padding-top:10px; text-shadow: 0px -1px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-1);}
+	#home_btn{background:url("../images/home_s_ss.png") no-repeat; display:block; width:52px; height:23px; border:0; color:#fff; font-size:13px; font-weight:bold; text-shadow: 0px -1px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-1); cursor:pointer; float:left; margin:8px 0 0 8px; padding-top:8px; text-align:center;}
+		#home_btn a, #home_btn a:visited{color:#fff; text-decoration:none;}
+	#title_r{color:#fff; text-align:right; display:block; width:233px; height:20px; font-size:20px; font-weight:bold; padding-top:10px; text-shadow: 0px -1px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-1); padding-right:10px; float:right;}
+
+/*Index*/
+#logoHolder{width:320px; height:100px; margin:13px 0 20px 0; text-align:center;}
+	#logoHolder #logo{background:url("../images/logo_s_ss.png") no-repeat; height:100px; width:158px; margin: 0 auto;}
+	
+#loginBox{width:320px; text-align:center;}
+	#loginBox label{text-align:center; display:block; width:320px; height:16px; font-size:16px; font-weight:bold;}
+	#loginBox .loginmargins{margin:10px auto 20px auto; width:278px; }
+		#loginBox input[type=text],#loginBox input[type=password]{text-align:center; width:278px; height:48px; font-size:16px; font-weight:bold; border:0; background-color: transparent!important; box-shadow:none!important;}
+		
+/*Scanner*/
+#scanBox{width:320px; text-align:center;}
+	#scanBox label{text-align:center; display:block; width:320px; height:16px; font-size:16px; font-weight:bold;}
+	#scanBox .loginmargins{margin:10px auto 20px auto; width:278px; }
+		#scanBox input[type=text],#scanBox input[type=password]{text-align:center; width:278px; height:48px; font-size:16px; font-weight:bold; border:0; background-color: transparent!important; box-shadow:none!important;}
+		
+/*Photo Main*/
+#photoBox{width:320px; text-align:center;}
+	#photoBox #imageBox{background:url("../images/backimg_s_ss.png") no-repeat; display:block; width:224px; height:297px; margin:13px auto 13px auto;}
+		#photoBox #imageBox img{border:0;padding:5px;}
+	
+	#photoBox  input.b_input2 {display:block; opacity:0;filter: alpha(opacity=0); width:278px; height:46px; cursor:pointer; margin-top:-36px; z-index:2;}
+
+/*Kiosk Main*/
+#uniformBox{width:320px; text-align:center;}
+	#uniformBox #blueGreyText{color:#4c566c; font-size:15px; margin-top:13px; text-shadow: 0px -1px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-1);}
+	#uniformBox #uniWrapper{width:300px; margin:18px auto 0 auto;}
+		#uniformBox #uniWrapper .selChoices{display:block; height:43px; width:300px; border-top:1px solid #cacaca;}
+			#uniformBox #uniWrapper .selChoices:first-child{border:0;}
+			#uniformBox #uniWrapper .selChoices label{display:block; height:20px; width:150px; font-size:16px; text-align:left; padding:13px 0 0 10px; color:#4c566c; float:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+			#uniformBox #uniWrapper .selChoices a.lowerBtn{display:block; height:29px; width:29px; margin-top:7px; background:url("../images/lower_s_ss.png") no-repeat; float:left;}
+			#uniformBox #uniWrapper .selChoices span.size{display:block; height:20px; width:50px; font-size:16px; font-weight:bold; text-align:center; padding:13px 0 0 10px; color:#000; float:left;}
+			#uniformBox #uniWrapper .selChoices a.higherBtn{display:block; height:29px; width:29px; margin-top:7px; background:url("../images/higher_s_ss.png") no-repeat; float:left;}
+			
+	#uniformBox .sub_btn_g{margin-top:20px;}
+
+/*Confirm Main*/
+#confirmBox{width:320px;}
+	#confirmBox #confirmWrapper{margin:13px 0; width:320px; height:175px;}
+		#confirmBox #confirmWrapper #imageBox{background:url("../images/backimg2_s_ss.png") no-repeat; display:block; width:133px; height:175px; margin:0 13px; float:left;}
+			#confirmBox #confirmWrapper #imageBox img{border:0;padding:5px; height:165px; width:124px;}
+			
+		#confirmBox #confirmWrapper #completedCheck{background:url("../images/check_s_ss.png") no-repeat; display:block; width:145px; height:130px; float:left; margin:25px 0 0 13px;}
+	
+	#confirmBox #uniWrapper{width:300px; margin:18px auto 0 auto;}
+		#confirmBox #uniWrapper .selChoices{display:block; height:43px; width:300px; border-top:1px solid #cacaca;}
+			#confirmBox #uniWrapper .selChoices:first-child{border:0;}
+			#confirmBox #uniWrapper .selChoices label{display:block; height:20px; width:150px; font-size:16px; text-align:left; padding:13px 0 0 10px; color:#4c566c; float:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+			#confirmBox #uniWrapper .selChoices span.size{display:block; height:13px; width:50px; font-size:16px; font-weight:bold; text-align:center; padding:13px 0 0 39px; color:#000; float:left;}
+
+	#confirmBox .sub_btn_g{margin-top:20px;}
+
+	
+
+

@@ -1,0 +1,238 @@
+
+*{margin:0;padding:0;}
+body
+{
+	/*background-color: #cc0000;*/
+	background-color:#cc0000;
+}
+
+
+.barBox 
+{
+	height: 36px;
+	width: 450px;
+	position: absolute;
+	top: 692px;
+	left: 103px;
+	font-size: 36px;
+	text-align: center;
+	border-width: 0px;
+	z-index: 2;
+}
+
+.hidden 
+{
+	display: none;
+}
+
+#myphoto 
+{
+	height: 259px;
+	width: 195px;
+	position: absolute;
+	top: 390px;
+	left: 217px;
+	border-width: 0px;
+	z-index: 2;
+}
+
+.b_01 
+{
+	background: url("../images/pho_00.png") no-repeat #ff0000;
+	height: 75px;
+	width: 250px;
+	position: absolute;
+	top: 866px;
+	left: 24px;
+	border-width: 0px;
+	z-index: 2;
+	cursor:pointer;
+}
+.b_02 
+{
+	height: 75px;
+	width: 250px;
+	position: absolute;
+	top: 866px;
+	left: 366px;
+	border-width: 0px;
+	z-index: 1;
+	cursor:pointer;
+}
+.b_03
+{
+	height: 75px;
+	width: 250px;
+	position: absolute;
+	top: 441px;
+	left: 199px;
+	border-width: 0px;
+	z-index: 1;
+	cursor:pointer;
+}
+.b_04
+{
+	background: url("../images/kio_00.png") no-repeat #ff0000;
+	height: 75px;
+	width: 300px;
+	position: absolute;
+	top: 908px;
+	left: 170px;
+	border-width: 0px;
+	z-index: 2;
+	cursor:pointer;
+}
+.b_05 
+{
+	background: url("../images/kio_01.png") no-repeat #ff0000;
+	height: 75px;
+	width: 250px;
+	border-width: 0px;
+	z-index: 2;
+	cursor:pointer;
+	float:left;
+}
+.b_06 
+{
+	background: url("../images/kio_02.png") no-repeat #ff0000;
+	height: 75px;
+	width: 250px;
+	border-width: 0px;
+	z-index: 2;
+	cursor:pointer;
+	float:right;
+	margin-right:12px;
+}
+div input.b_input
+{
+    /*font: 500px monospace; /* make the input's button HUGE */
+    opacity:0; /* this will make it transparent */
+    filter: alpha(opacity=0); /* transparency for Internet Explorer */
+    height: 75px;
+	width: 250px;
+	position: absolute;
+	top: 441px;
+	left: 199px;
+	border-width: 0px;
+	z-index: 2;
+	cursor:pointer;
+}
+div input.b_input2
+{
+    /*font: 500px monospace; /* make the input's button HUGE */
+    opacity:0; /* this will make it transparent */
+    filter: alpha(opacity=0); /* transparency for Internet Explorer */
+    height: 75px;
+	width: 250px;
+	position: absolute;
+	top: 866px;
+	left: 366px;
+	border-width: 0px;
+	z-index: 2;
+	cursor:pointer;
+}
+.choiceBox
+{
+	z-index: 2;
+	position: absolute;
+	width:610px;
+	top: 452px;
+	left: 20px;
+}
+.selChoices
+{
+	display:block;
+	z-index: 2;
+	width:610px;
+	height:30px;
+	margin-bottom:40px;
+}
+
+.selChoices label
+{
+	display:block;
+	float:left;
+	width:152px;
+	height:30px;
+	font-size: 35px;
+	line-height: 30px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 3px 3px 5px #000000;
+}
+.selChoices select
+{
+	float:right;
+	display:block;
+	width:152px;
+	height:30px;
+}
+.selResult
+{
+	display:block;
+	z-index: 2;
+	width:610px;
+	height:30px;
+	margin-bottom:40px;
+}
+.selResult label.rleft
+{
+	display:block;
+	float:left;
+	width:152px;
+	height:30px;
+	font-size: 35px;
+	line-height: 30px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 3px 3px 5px #000000;
+}
+.selResult label.rright
+{
+	float:right;
+	display:block;
+	width:152px;
+	height:30px;
+	font-size: 35px;
+	line-height: 30px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 3px 3px 5px #000000;
+}
+.errBox
+{
+	z-index: 2;
+	position: absolute;
+	width:610px;
+	top: 355px;
+	left: 20px;
+}
+.errBox p.e_title
+{
+	font-size: 45px;
+	line-height: 30px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 3px 3px 5px #000000;
+	text-align:center;
+}
+.errBox  p.e_description
+{
+	margin-top:40px;
+	font-size: 35px;
+	line-height: 40px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 3px 3px 5px #000000;
+	text-align:center;
+}
+.block { display: block; }
+#logFormFinal label.error {
+  display: none !important;
+}
+.error{background:#efadad; border:0;}

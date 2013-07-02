@@ -1,0 +1,69 @@
+
+*{margin:0;padding:0;}
+body{background:url("../images/bg.png") repeat; font-family:Arial;}
+
+.input-wrapper {background-color:#fff; border-radius: 34px; box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7) inset;}
+.sub_btn{background:url("../images/submit.png") no-repeat; display:block; width:1112px; height:182px; margin:0 auto; border:0; color:#fff; font-size:80px; font-weight:bold; text-shadow: 0px -2px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-2); cursor:pointer;}
+.sub_btn_r{background:url("../images/red_btn.png") no-repeat; display:block; width:1112px; height:182px; margin:0 auto; border:0; color:#fff; font-size:80px; font-weight:bold; text-shadow: 0px -2px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-2); cursor:pointer;}
+.sub_btn_g{background:url("../images/grey_btn.png") no-repeat; display:block; width:1112px; height:182px; margin:0 auto; border:0; color:#fff; font-size:80px; font-weight:bold; text-shadow: 0px -2px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-2); cursor:pointer;}
+.hidden{display:none;}
+.blueGreyText{color:#4c566c; font-size:60px; margin-top:50px; text-shadow: 0px -2px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-2);}
+
+/*General*/
+#topbar{background:url("../images/topbar.png") no-repeat; display:block; width:1280px; height:180px; margin:0;}
+	#title{color:#fff; text-align:center; display:block; width:1280px; height:80px; font-size:80px; font-weight:bold; padding-top:40px; text-shadow: 0px -2px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-2);}
+	#home_btn{background:url("../images/home.png") no-repeat; display:block; width:208px; height:92px; border:0; color:#fff; font-size:50px; font-weight:bold; text-shadow: 0px -2px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-2); cursor:pointer; float:left; margin:30px 0 0 30px; padding-top:30px; text-align:center;}
+		#home_btn a, #home_btn a:visited{color:#fff; text-decoration:none;}
+	#title_r{color:#fff; text-align:right; display:block; width:932px; height:80px; font-size:80px; font-weight:bold; padding-top:40px; text-shadow: 0px -2px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-2); padding-right:40px; float:right;}
+
+/*Index*/
+#logoHolder{width:1280px; height:400px; margin:50px 0 80px 0; text-align:center;}
+	#logoHolder #logo{background:url("../images/logo.png") no-repeat; height:400px; width:630px; margin: 0 auto;}
+	
+#loginBox{width:1280px; text-align:center;}
+	#loginBox label{text-align:center; display:block; width:1280px; height:64px; font-size:64px; font-weight:bold;}
+	#loginBox .loginmargins{margin:40px auto 80px auto; width:1112px; }
+		#loginBox input[type=text],#loginBox input[type=password]{text-align:center; width:1112px; height:190px; font-size:64px; font-weight:bold; border:0; background-color: transparent!important; box-shadow:none!important;}
+		
+/*Scanner*/
+#scanBox{width:1280px; text-align:center;}
+	#scanBox label{text-align:center; display:block; width:1280px; height:64px; font-size:64px; font-weight:bold;}
+	#scanBox .loginmargins{margin:40px auto 80px auto; width:1112px; }
+		#scanBox input[type=text],#scanBox input[type=password]{text-align:center; width:1112px; height:190px; font-size:64px; font-weight:bold; border:0; background-color: transparent!important; box-shadow:none!important;}
+		
+/*Photo Main*/
+#photoBox{width:1280px; text-align:center;}
+	#photoBox #imageBox{background:url("../images/backimg.png") no-repeat; display:block; width:896px; height:1186px; margin:50px auto 50px auto;}
+		#photoBox #imageBox img{border:0;padding:20px;}
+	
+	#photoBox  input.b_input2 {display:block; opacity:0;filter: alpha(opacity=0); width:1112px; height:182px; cursor:pointer; margin-top:-134px; z-index:2;}
+
+/*Kiosk Main*/
+#uniformBox{width:1280px; text-align:center;}
+	#uniformBox #blueGreyText{color:#4c566c; font-size:60px; margin-top:50px; text-shadow: 0px -2px 1px #000000; filter: dropshadow(color=#000000, offx=0, offy=-2);}
+	#uniformBox #uniWrapper{width:1200px; margin:70px auto 0 auto;}
+		#uniformBox #uniWrapper .selChoices{display:block; height:172px; width:1200px; border-top:2px solid #cacaca;}
+			#uniformBox #uniWrapper .selChoices:first-child{border:0;}
+			#uniformBox #uniWrapper .selChoices label{display:block; height:50px; width:600px; font-size:62px; text-align:left; padding:50px 0 0 40px; color:#4c566c; float:left;}
+			#uniformBox #uniWrapper .selChoices a.lowerBtn{display:block; height:116px; width:116px; margin-top:25px; background:url("../images/lower.png") no-repeat; float:left;}
+			#uniformBox #uniWrapper .selChoices span.size{display:block; height:50px; width:200px; font-size:62px; font-weight:bold; text-align:center; padding:50px 0 0 40px; color:#000; float:left;}
+			#uniformBox #uniWrapper .selChoices a.higherBtn{display:block; height:116px; width:116px; margin-top:25px; background:url("../images/higher.png") no-repeat; float:left;}
+			
+	#uniformBox .sub_btn_g{margin-top:80px;}
+
+/*Confirm Main*/
+#confirmBox{width:1280px;}
+	#confirmBox #confirmWrapper{margin:50px 0; width:1280px; height:698px;}
+		#confirmBox #confirmWrapper #imageBox{background:url("../images/backimg2.png") no-repeat; display:block; width:498px; height:698px; margin:0 50px; float:left;}
+			#confirmBox #confirmWrapper #imageBox img{border:0;padding:17px; height:661px; width:463px;}
+			
+		#confirmBox #confirmWrapper #completedCheck{background:url("../images/check.png") no-repeat; display:block; width:580px; height:520px; float:left; margin:100px 0 0 50px;}
+	
+	#confirmBox #uniWrapper{width:1200px; margin:70px auto 0 auto;}
+		#confirmBox #uniWrapper .selChoices{display:block; height:172px; width:1200px; border-top:2px solid #cacaca;}
+			#confirmBox #uniWrapper .selChoices:first-child{border:0;}
+			#confirmBox #uniWrapper .selChoices label{display:block; height:50px; width:600px; font-size:62px; text-align:left; padding:50px 0 0 40px; color:#4c566c; float:left;}
+			#confirmBox #uniWrapper .selChoices span.size{display:block; height:50px; width:200px; font-size:62px; font-weight:bold; text-align:center; padding:50px 0 0 156px; color:#000; float:left;}
+
+	#confirmBox .sub_btn_g{margin-top:80px;}
+	
